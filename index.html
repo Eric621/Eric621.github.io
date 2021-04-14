@@ -89,6 +89,7 @@
          <div id="sketchupContainer">
             <h1>SketchUp</h1>
             to view <a href="https://vmblackhistory.ca/" target="_blank">Click here</a>
+            <img id="x" src="assets/minimap2.png"></img>
          </div>
       </div>
    </div>
@@ -118,22 +119,21 @@
               <td><b>Pros</b></td>
               <td>Customizability great to conceptualize your exhibit in 3D before building
                Can design 3D models and then export as a file to send it to a 3D printer or laser cutter</td>
-               <td>Can invite people into the place and interact with other users (movement, talking ect)</td>
-               <td>The user doesn’t need to install a new program to use (browser-friendly)
-                  <p>Free to use!</p>
-                  <p>Can install in a discord server (easy collaboration and sharing)</p> 
-                  Can upload photos and videos 
-                  
-                  </td>
+               <td>The most customizable program to building a building/exhibit</td>
+               <td>Can fully customize exactly what you want your exhibit layout to look like, inserting textures, photos etc
+               <p>Models use real measurements so its super easy to compare what the models looks like and how it would look IRL</p>
+               </td>
           </tr>
           <tr class="active-row">
               <td><b>Cons</b></td>
               <td></td>
-              <td></td>
+              <td>Cannot look or interact with the model without being on an “edit” mode
+              <p>As the result is a single file, to visit each individual will need to download the file</p>
+              </td>
               <td>
-               To completely customize an object, (ie one that isn’t in the main shop) you  need a different program to design it
-               Not the friendliest of user interfaces, does take some time to understand how to use it 
-               </td>
+               The free web browser version has limitations in terms of how complex the shape can be and in terms of what files it can be exported as
+              <p>To get a full render, need to install a separate program</p>
+              </td>
           </tr>
       </tbody>
   </table>
@@ -149,6 +149,7 @@
          <div id="blenderContainer">
             <h1>Blender</h1>
             to view an example short fillm that was made using blender,  <a href="https://www.youtube.com/watch?v=WhWc3b3KhnY" target="_blank">Click here</a>
+            <img id="y" src="plant.png"></img>
          </div>
       </div>
    </div>
@@ -288,25 +289,39 @@ Overall - Would be great to make environments in very niche scenarios and also g
    Completely browser-friendly, it is a great way to mimic the real-life experience of running into someone and having a conversation. 
    Although not the easiest user interface to figure out how to customize the room, it is super easy to meet with other people and interact with an already designed room. 
    
-
-IRL Museums
-Virtual museums
-Both
-Customizability great to conceptualize your exhibit in 3D before building
-
-
-Can invite people into the place and interact with other users (movement, talking ect)
-Can move around in the place, like in IRL
-The user doesn’t need to install a new program to use (browser-friendly)
-Free to use!
-Can install in a discord server (easy collaboration and sharing) 
-Can upload photos and videos 
-
-
-
-
-To completely customize an object, (ie one that isn’t in the main shop) you  need a different program to design it
-Not the friendliest of user interfaces, does take some time to understand how to use it
+   <table class="styled-table">
+      <thead>
+          <tr>
+              <th></th>
+              <th>IRL Museums</th>
+              <th>Virtual museums</th>
+              <th>Both</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td><b>Pros</b></td>
+              <td>Customizability great to conceptualize your exhibit in 3D before building
+               Can design 3D models and then export as a file to send it to a 3D printer or laser cutter</td>
+               <td>Can invite people into the place and interact with other users (movement, talking ect)</td>
+               <td>The user doesn’t need to install a new program to use (browser-friendly)
+                  <p>Free to use!</p>
+                  <p>Can install in a discord server (easy collaboration and sharing)</p> 
+                  Can upload photos and videos 
+                  
+                  </td>
+          </tr>
+          <tr class="active-row">
+              <td><b>Cons</b></td>
+              <td></td>
+              <td></td>
+              <td>
+               To completely customize an object, (ie one that isn’t in the main shop) you  need a different program to design it
+               Not the friendliest of user interfaces, does take some time to understand how to use it 
+               </td>
+          </tr>
+      </tbody>
+  </table>
 
 
 </div>
@@ -440,9 +455,6 @@ Not the friendliest of user interfaces, does take some time to understand how to
       <img id="miniMap" src="assets/minimap2.png" onclick="delWindow('miniMap')">
       <img id="mapIconMobile" src="assets/map_icon.png" onclick="loadPopUpNonInc('miniMapMobile')">
       <img id="miniMapMobile" src="assets/Minimap-Mobile.png" onclick="delWindow('miniMapMobile')">
-      <div class="about" onclick="loadPopUp('WTPopUp')">
-         <h5>About</h5>
-      </div>
       <audio id="audio" src="assets/Museumsounds.mp3" autoplay loop></audio>
       <img id="musicIcon" src="assets/music-icon.png" onclick="aud_play_pause()"></img>
       <img id="musicIconMobile" src="assets/music-icon.png" onclick="aud_play_pause()"></img>
