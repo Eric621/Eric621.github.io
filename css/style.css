@@ -630,6 +630,13 @@ opacity: 100%;
   padding: 1em;
 }
 
+.styled-table2 {
+  border-collapse: collapse;
+}
+
+.styled-table2 th, .styled-table td {
+  padding: 0.5em;
+}
 
 .myclass {
   color: black;
