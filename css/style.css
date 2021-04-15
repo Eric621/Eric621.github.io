@@ -641,6 +641,19 @@ opacity: 100%;
   width: 1000px;
 }
 
+.titleclass {
+  color: black;
+  font-size: 20pt;
+  font-family: Garamond !important;
+  width: 1500px;
+}
+
+#titletext {
+  left: 6490px;
+  top: 11254px;
+  position: absolute;
+}
+
 #BLMSImage {
   left: 7150px;
   top: 7904px;
